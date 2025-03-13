@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0 , 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #fd2121;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+label{
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+input[type="radio"]{
+    display: inline;
+    width: 10%;
+}
+textarea{
+    resize: none;
+    width: 98%;
+    min-height: 100px;
+    max-height: 150px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #fd2121;
+    width: 40%;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #8c0808;
+}
