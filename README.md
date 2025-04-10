@@ -13,7 +13,7 @@ The purpose of this project is to demonstrate how to build a clean and professio
 
 ## 🔗 GitHub Repository
 
-[https://github.com/your-username/formvalidation](https://github.com/your-username/formvalidation)
+https://github.com/Manoj-Gmk/react-form-validation.git
 
 ## 🛠️ Tech Stack
 
@@ -28,13 +28,13 @@ The purpose of this project is to demonstrate how to build a clean and professio
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/formvalidation.git
+git clone https://github.com/Manoj-Gmk/react-form-validation.git
 ```
 
 ### 2. Navigate to project directory
 
 ```bash
-cd formvalidation
+cd react-form-validation
 ```
 
 ### 3. Install dependencies
@@ -51,7 +51,7 @@ npm run dev
 
 ### 5. Open in browser
 
-Visit: [http://localhost:5173](http://localhost:5173)
+Visit: (http://localhost:5173)
 
 ## 🧠 Features
 
@@ -66,7 +66,7 @@ Visit: [http://localhost:5173](http://localhost:5173)
 
 **Name:** Manoj  
 **Role:** Frontend Developer (Fresher)  
-**GitHub:** [https://github.com/your-username](https://github.com/your-username)
+**GitHub:** https://github.com/Manoj-Gmk
 
 ---
 
