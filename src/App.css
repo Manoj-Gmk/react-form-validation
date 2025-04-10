@@ -1,0 +1,104 @@
+  /* Main container style */
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Label style */
+  .form-label {
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+  }
+  
+  /* Input and Textarea styles */
+  input,
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  /* Focus input highlight */
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px #007bff44;
+  }
+  
+  /* Gender radio group layout */
+  .radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  /* Remove default background from radio */
+  input[type="radio"] {
+    accent-color: #007bff;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  /* Error text style */
+  .error-text {
+    color: red;
+    font-size: 13px;
+    margin-top: 3px;
+    display: block;
+  }
+  
+  /* Buttons layout */
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  /* Buttons style */
+  button {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  /* Reset button */
+  .reset-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  /*submit button hover*/
+  .submit-btn:hover{
+    background-color: #0056b3;
+  }
+   /*Reset button hover*/
+  .reset-btn:hover{
+    background-color: #5a6268
+  }
+  
