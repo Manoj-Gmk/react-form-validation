@@ -51,7 +51,7 @@ npm run dev
 
 ### 5. Open in browser
 
-Visit: [http://localhost:5173](http://localhost:5173)
+Visit: (http://localhost:5173)
 
 ## 🧠 Features
 
