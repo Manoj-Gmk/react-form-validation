@@ -73,7 +73,6 @@ function App() {
       <h1>React Form Validation</h1>
 
       <form onSubmit={handlesubmit}>
-        {/* First Name */}
         <label className="form-label">First Name</label>
         <input
           type="text"
@@ -86,7 +85,6 @@ function App() {
           <small className="error-text">{errors.firstname}</small>
         )}
 
-        {/* Last Name */}
         <label className="form-label">Last Name</label>
         <input
           type="text"
@@ -98,8 +96,6 @@ function App() {
         {errors.lastname && (
           <small className="error-text">{errors.lastname}</small>
         )}
-
-        {/* Email */}
         <label className="form-label">Email</label>
         <input
           type="email"
@@ -110,7 +106,6 @@ function App() {
         />
         {errors.Email && <small className="error-text">{errors.Email}</small>}
 
-        {/* Contact Number */}
         <label className="form-label">Phone Number</label>
         <input
           type="text"
@@ -123,7 +118,6 @@ function App() {
           <small className="error-text">{errors.contact}</small>
         )}
 
-        {/* Gender */}
         <label className="form-label">Gender</label>
         <div className="radio-group">
           <label>
@@ -155,11 +149,9 @@ function App() {
           </label>
         </div>
 
-        {/* Resume Upload */}
         <label className="form-label">Resume</label>
         <input type="file" name="resume" onChange={handlechanges} />
 
-        {/* About You */}
         <label className="form-label">About</label>
         <textarea
           name="about"
@@ -169,7 +161,6 @@ function App() {
           onChange={handlechanges}
         ></textarea>
 
-        {/* Buttons */}
         <div className="button-group">
           <button type="reset" onClick={resetfun} className="reset-btn">
             Reset
